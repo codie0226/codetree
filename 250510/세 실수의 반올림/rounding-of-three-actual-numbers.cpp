@@ -5,9 +5,13 @@ int main() {
     // Please write your code here.
     double a, b, c;
 
+    cin >> a >> b >> c;
+
     cout << fixed;
     cout.precision(3);
 
-    cout << a << endl << b << endl << c;
+    cout << a << endl;
+    cout << b << endl;
+    cout << c;
     return 0;
 }
